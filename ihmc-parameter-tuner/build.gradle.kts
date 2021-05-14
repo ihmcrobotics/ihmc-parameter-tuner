@@ -1,8 +1,8 @@
 plugins {
-   id("us.ihmc.ihmc-build") version "0.20.1"
-   id("us.ihmc.ihmc-ci") version "5.3"
-   id("us.ihmc.ihmc-cd") version "1.14"
-   id("us.ihmc.log-tools") version "0.3.1"
+   id("us.ihmc.ihmc-build")
+   id("us.ihmc.ihmc-ci") version "7.4"
+   id("us.ihmc.ihmc-cd") version "1.20"
+   id("us.ihmc.log-tools-plugin") version "0.6.1"
 }
 
 ihmc {
@@ -19,10 +19,9 @@ mainDependencies {
    api("jakarta.xml.bind:jakarta.xml.bind-api:2.3.2")
    api("org.glassfish.jaxb:jaxb-runtime:2.3.2")
 
-   api("us.ihmc:ihmc-commons:0.26.6")
-   api("us.ihmc:ihmc-yovariables:0.4.0")
-   api("us.ihmc:ihmc-javafx-toolkit:0.14.1")
-   api("us.ihmc:ihmc-robot-data-logger:0.15.0")
+   api("us.ihmc:ihmc-yovariables:0.9.9")
+   api("us.ihmc:ihmc-javafx-toolkit:0.19.3")
+   api("us.ihmc:ihmc-robot-data-logger:0.20.7")
    api("us.ihmc:ihmc-robotics-toolkit:source")
 }
 
