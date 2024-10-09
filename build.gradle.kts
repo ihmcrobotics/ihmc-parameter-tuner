@@ -6,7 +6,7 @@ plugins {
 }
 
 ihmc {
-   loadProductProperties("../product.properties")
+   loadProductProperties("product.properties")
    
    configureDependencyResolution()
    configurePublications()
