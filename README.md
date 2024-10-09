@@ -1,5 +1,7 @@
 # IHMC Parameter Tuner
 
+Latest version 0.1.0
+
 This repository is designed to create a standalone application that connects to a yo variable server adn enables tuning of parameters. These parameters can then be exported to the corresponding xml file.
 
 ## Licensing
