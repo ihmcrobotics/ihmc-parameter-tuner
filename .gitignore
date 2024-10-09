@@ -23,6 +23,7 @@
 **/build
 **/bin
 **/out
+**/gradle
 **/.gradle
 **/.project
 **/.classpath
@@ -52,6 +53,7 @@
 # File types to ignore
 **/*.jar
 **/cookies.txt
+**/gradlew*
 **/*.iml
 **/*.hprof
 **/hs_err_pid*
